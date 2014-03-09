@@ -1,0 +1,4 @@
+angulary
+========
+
+angualrjs npm boilerplate
