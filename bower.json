@@ -1,0 +1,12 @@
+{
+  "name": "angulary",
+  "version": "0.1.9",
+  "devDependencies": {
+    "bootstrap": "~3.1.1",
+    "lodash": "~2.4.1",
+    "restangular": "~1.3.1",
+    "angular-route": "~1.2.14",
+    "angular-sanitize": "~1.2.14",
+    "angular": "*"
+  }
+}

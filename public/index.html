@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="angulary">
+<head>
+  <meta charset="utf-8">
+  <title>Angulary - AngularJS Boilerplate</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles/bootstrap.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<header>
+<h1>Title <small>short descr</small></h1>
+</header>
+
+
+<ng-view></ng-view>
+
+
+<footer class="footer">
+  <div class="container text-center small grey">
+    <p>
+      Created by
+      <a href="http://stepansuvorov.com">Author</a>
+    </p>
+    <p>
+      <a href="%project_link%">GitHub Page</a>
+    </p>
+  </div>
+</footer>
+
+<script src="/javascript/libs/jquery.min.js"></script>
+<script src="/javascript/libs/lodash.min.js"></script>
+<script src="/javascript/libs/angular.js"></script>
+<script src="/javascript/libs/angular-route.js"></script>
+<script src="/javascript/libs/angular-sanitize.js"></script>
+<script src="/javascript/libs/restangular.js"></script>
+
+<script src="/javascript/app/app.js"></script>
+<script src="/javascript/app/templates.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '%your_ga_id%', '%your_site_host%');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
